@@ -1,10 +1,11 @@
 // src/App.js
 // import React, { useState } from 'react';
-import Feedback from './Feedback/feedback';
-import Options from './Options/options';
-import Notification from './Notification/notification';
-import { useState } from 'react';
+import Feedback from './components/Feedback/feedback';
+import Options from './components/Options/options';
+import Notification from './components/Notification/notification';
 import { useEffect } from 'react';
+import { useState } from 'react';
+
 
 function App() {
   const [feedback, setFeedback] = useState(() => {
